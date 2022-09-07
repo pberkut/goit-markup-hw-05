@@ -558,7 +558,7 @@ body {
   --items: 3;
 }
 
-.portfolio-card .overlay {
+.portfolio-card .portfolio-card-overlay {
   position: relative;
   overflow: hidden;
 }
