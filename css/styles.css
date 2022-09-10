@@ -528,9 +528,7 @@ body {
 
   cursor: pointer;
 
-  transition-property: color, background-color, box-shadow;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--timing-function);
+  transition: color var(--anim), background-color var(--anim), box-shadow var(--anim);
 }
 
 .portfolio .list-item:first-child .filter-btn {
@@ -714,7 +712,7 @@ body {
 
   background-color: rgba(0, 0, 0, 0.2);
 
-  transition: opacity var(--anim);
+  transition: visibility var(--anim), opacity var(--anim);
 }
 
 .backdrop.is-hidden {
